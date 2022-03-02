@@ -127,4 +127,8 @@ section .contact-me p img {
   section.sec-3 .col2 .contact-me {
     width: 100%;
   }
+
+  .skills ul li {
+    width: 100px;
+  }
 }
