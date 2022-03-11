@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #000;
-  color: #2196f3;
+  background-color: #fff;
+  color: #000;
   text-transform: capitalize;
   font-family: sans-serif;
   line-height: 1.2;
@@ -21,7 +21,7 @@ body {
 h2 {
   font-size: 26px;
   margin: 18px 0px;
-  border-bottom: 1px solid #2196f3;
+  border-bottom: 1px solid #000;
 }
 
 section:not(:last-child) {
@@ -43,14 +43,18 @@ ul li:not(:last-child) {
   margin-bottom: 18px;
 }
 
+.education ul li:not(:last-child) {
+  margin-bottom: 18px;
+}
+
 ul li {
   line-height: 1.4;
   margin-left: 18px;
 }
 
 a {
-  text-decoration: none;
-  color: #2196f3;
+  /* text-decoration: none; */
+  color: #000;
 }
 
 /* header style */
@@ -67,6 +71,7 @@ header {
 }
 
 /* skills section style */
+
 .skills {
   width: 100%;
   display: flex;
@@ -105,7 +110,13 @@ section.sec-3 .col2 {
 section .contact-me p {
   display: flex;
   align-items: center;
+  line-height: 1.8;
+
+}
+section .contact-me p:not(:last-child) {
+
   margin-bottom: 8px;
+
 }
 
 section .contact-me p img {
@@ -117,15 +128,16 @@ section .contact-me p img {
 @media (max-width: 650px) {
   .work-exp {
     width: 100%;
+    margin-bottom: 30px;
   }
   section.sec-3 .col2 {
     width: 100%;
-    /* flex-direction: row; */
   }
 
   section.sec-3 .col2 .soft-skills,
   section.sec-3 .col2 .contact-me {
     width: 100%;
+    margin-bottom: 30px;
   }
 
   .skills ul li {
