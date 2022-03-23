@@ -123,7 +123,7 @@ section .contact-me p img {
   height: 16px;
   margin-right: 4px;
 }
-
+/* 
 @media (max-width: 650px) {
   .work-exp {
     width: 100%;
@@ -142,4 +142,4 @@ section .contact-me p img {
   .skills ul li {
     width: 100px;
   }
-}
+} */
