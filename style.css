@@ -84,11 +84,35 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+
+}
+
+ ul p.spss{
+  margin-bottom: 16px;
 }
 
 .skills ul li {
   width: 215px;
   margin-bottom: 8px;
+  margin-left: 30px;
+}
+
+ ul.spes{
+  margin-bottom: 30px;
+}
+
+ul.fex{
+  display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+ul.block{
+    flex-direction: column;
+}
+
+ul.fex li{
+  min-width: 300px;
 }
 
 /* 3rd section style */
@@ -99,11 +123,19 @@ section.sec-3 {
   flex-wrap: wrap;
 }
 
+.sec-3 .work-exp li{
+/*  margin-left: 30px; */
+}
+
 section.sec-3 .col2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.soft-skills{
+  min-width: 300px;
 }
 
 section .contact-me p {
@@ -125,6 +157,9 @@ section .contact-me p img {
 }
 
 @media (max-width: 650px) {
+  .continner {
+  margin: 0px auto;
+}
   .work-exp {
     width: 100%;
     margin-bottom: 30px;
@@ -133,12 +168,13 @@ section .contact-me p img {
     width: 100%;
   }
 
-  section.sec-3 .col2 .soft-skills,
-  section.sec-3 .col2 .contact-me {
+  section.sec-3  .soft-skills,
+  section.sec-3  .contact-me {
     width: 100%;
     margin-bottom: 30px;
   }
-
+  .contact-me{
+    margin-bottom: 0px;
   .skills ul li {
     width: 100px;
   }
